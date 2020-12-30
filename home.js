@@ -40,10 +40,13 @@ mobileMenu.style.display = "none";
  let flag = 0;
  navToggler = () =>{
      if(flag === 0){
+        document.getElementById("navIcon").innerHTML= `<i class="fas fa-times"></i>`
+           
         mobileMenu.style.display = "inline" 
         flag = 1;
       }
       else{
+        document.getElementById("navIcon").innerHTML= `<i class="fas fa-bars"></i>`
         mobileMenu.style.display = "none" 
         flag = 0;
       }   
