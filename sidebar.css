@@ -1,0 +1,155 @@
+
+.Product_Navbar_Sidebar{
+
+    height: 100%;
+    text-align: left;
+    position: absolute;
+    width: 18%;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.1);
+    padding: 5x;
+    text-transform:uppercase;
+    font-family: 'Roboto',sans-serif;
+    color: #333333;;
+    font-size: 14px;
+    /* border: 1px solid #999999; */
+    float: left;
+    height: 1000px;
+    z-index: 20000;
+    }
+
+    .Product_Navbar_Sidebar_items li{
+        list-style: none;        
+    }
+    .Product_Navbar_Sidebar_items a img{
+        margin-top: 25px;
+        width: 20px;
+        height: 20px;
+        /* border: 1px solid black; */
+        margin-right: 15px;    
+        justify-content: baseline;
+        align-items: baseline;
+    }
+    #time_tracker{
+        margin-top: 0px;
+    }
+    /* 
+    #time_tracker{
+        margin-left: 15px;
+        position: absolute;
+        top: 30px;
+        color:#000000E6;
+        font-size: 14px;
+    }
+    #calendar{
+        margin-left: 15px;
+        position: absolute;
+        top: 90px;
+    }
+    #analyse{
+        color: #999;
+        position: absolute;
+        top: 140px;
+        font-size: 11px;
+        color: #999999;
+        
+    }
+    .dashboard{
+        margin-top: 100px;
+    }
+    #dashboard{
+        margin-left: 15px;
+        position: absolute;
+        top: 160px;
+    }
+    
+    #manage{
+        color: #999;
+        position: absolute;
+        top: 0px;
+        font-size: 11px;
+        color: #999999;
+    } */
+    #analyse{
+        font-size: 12px;
+        color: #999999;
+        margin-top: 30px;
+        margin-bottom: -5px;
+    }
+    #manage{
+        font-size: 12px;
+        color: #999999;
+        margin-top: 30px;
+        margin-bottom: -5px;
+    }
+
+    
+      #settings{
+          margin-bottom: 1000x;
+      }
+      .reports i{
+          margin-left: 60px;
+      }
+      
+      .report_dropbtn{
+        margin-left: 100px;
+        position: absolute;
+        top: 280px;
+      }
+      
+      .report_dropdown_content {
+          display: none;
+          position: absolute;
+          background-color: #fff;
+          width: 180px;
+          height: 180px;
+          box-shadow: 0px 5px 10px rgba(0,0,0,.1);
+          /* z-index: 1; */
+          margin-left: 0px;
+      }
+     
+      .report_dropbtn:hover .report_dropdown_content{
+          display: block;
+      }
+      .report_dropdown_content a:hover 
+      {
+          background-color: #ddd;
+          transition: 0.2s;
+        }
+        .report_dropdown_content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+    
+          }
+         .Product_Navbar_Sidebar_items li:hover{
+            background-color: #ddd;
+             }
+        .Product_Navbar_Sidebar_items_toggle
+          {
+              display: none;
+          }
+    
+    
+
+   /* width */
+#Product_Navbar_Sidebar::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  #Product_Navbar_Sidebar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  #Product_Navbar_Sidebar::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  #Product_Navbar_Sidebar::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+  }
