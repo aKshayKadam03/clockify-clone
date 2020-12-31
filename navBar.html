@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="Product_Navbar.css">
+    <link rel="stylesheet" href="sidebar.css">
+    </link>
+</head>
+
+<body>
+
+    <div class="Product_Navbar">
+        <div class="Product_Navbar_Items">
+
+            <i class="fa fa-bars fa-2x" id="sidebar"></i>
+            <img src="logo.svg" alt="logo"></img>
+
+            <!-- <div class="Product_Navbar_Items_right"> -->
+
+
+            <div class="dropbtn_workspace">
+                <p id="navbar_work_space">
+                    <span id="name_workspace"> </span>
+                    Workspace
+                    <i class="fa fa-angle-down"></i>
+                </p>
+                <div class="dropdown_content_workspace">
+                    <a href="" class="dropdown_content_items"> Workspace <span id="work_manage"> Manage</span>
+                    </a>
+                    <a href="" class="dropdown_content_items_active"> <span id="drop_down_work"></span> Workspace
+                        <img src="https://clockify.me/assets/ui-icons/checkmark-green.svg" alt="greentick">
+                        <span id="active_green">Active </span></a>
+                </div>
+            </div>
+
+
+
+            <button class="navbar_upgrade"> UPGRADE </button>
+            <img id="navbar_help" src="help.svg" alt="">
+            <img id="navbar_notification" src="notification.svg" alt="">
+
+            <div class="display_name" id="display_name">
+                <span id="display_name_text">HY</span></div>
+
+            <div class="display_dropbtn_workspace" id="display_dropbtn_workspace">
+                <!-- <div class="display_name" id="display_name">
+                        <span id="display_name_text_change">PK</span></div> -->
+                <div class="display_content_workspace">
+                    <a href="" class="dispaly_content_items" id="workspace_email"> aaa </a>
+                    <hr>
+                    <a href="" class="dispaly_content_items_active" id="workspace_email_name"> aaa </a>
+                    <a href="" class="dispaly_content_items_active"> Profile Setting</a>
+                    <a href="" class="dispaly_content_items_active"> Download </a>
+                    <hr>
+                    <a href="/home/dell/Downloads/Clock_Project/Sign_Up.html" class="dispaly_content_items_active">
+                        Logout </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- sidebar -->
+        <div class="Product_Navbar_Sidebar" id="Product_Navbar_Sidebar">
+            <ul class="Product_Navbar_Sidebar_items">
+                <li>
+                    <a href=""> <img src="time-tracker.svg" alt="time tacker" /></a>
+                    <span id="time_tracker"> TIME SHEET </span>
+                </li>
+                <li>
+                    <a href=""> <img src="time-tracker.svg" alt="time tacker" /></a>
+                    <span> TIME TRACKER </span>
+                </li>
+                <li>
+                    <a href=""> <img src="calendar.svg" alt="time tacker" /></a>
+                    <span id="calendar"> CALENDAR </span>
+                </li>
+                <li id="analyse">
+                    <span class="analyse"> analyse </span>
+                </li>
+                <li>
+                    <a href=""> <img class="dashboard" src="dashboard.svg" alt="time tacker" /></a>
+                    <span id="dashboard"> dashboard</span>
+                </li>
+                <li class="reports">
+                    <a href=""> <img src="reports.svg" alt="time tacker" /></a>
+                    <span id="reports"> reports </span>
+                    <div class="report_dropbtn">
+                        <i class="fa fa-angle-right"></i>
+                        <div class="report_dropdown_content">
+                            <a href="" class="report_dropdown_content_items"> Summary </a>
+                            <a href="" class="report_dropdown_content_items"> Detailed </a>
+                            <a href="" class="report_dropdown_content_items"> Weekly</a>
+                            <a href="" class="report_dropdown_content_items"> Shared</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="manage">
+                    <span> manage </span>
+                </li>
+                <li>
+                    <a href=""> <img src="projects.svg" alt="time tacker" /></a>
+                    <span id="projects"> projects </span>
+                </li>
+                <li>
+                    <a href=""> <img src="teams.svg" alt="time tacker" /></a>
+                    <span id="team"> team </span>
+                </li>
+                <li>
+                    <a href=""> <img src="clients.svg" alt="time tacker" /></a>
+                    <span id="clients"> clients </span>
+                </li>
+                <li>
+                    <a href=""> <img src="tags.svg" alt="time tacker" /></a>
+                    <span id="tags"> tags </span>
+                </li>
+                <li id="settings">
+                    <a href=""> <img src="settings.svg" alt="time tacker" /></a>
+                    <span> settings </span>
+                </li>
+            </ul>
+        </div>
+        <!-- toggle -->
+
+        <div class="Product_Navbar_Sidebar_toggle" id="Product_Navbar_Sidebar_toggle">
+            <ul class="Product_Navbar_Sidebar_toggle_items">
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="time-tracker.svg" alt="time sheet" /></a>
+                    <span class="tooltiptext" id="tool_time"> TIME SHEET </span>
+                </div>
+                </li>
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="time-tracker.svg" alt="time tacker" /></a>
+                    <span class="tooltiptext" id="tool_time"> TIME TRACKER </span>
+                </div>
+                </li>
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="calendar.svg" alt="calendar" /></a>
+                    <span class="tooltiptext" id="tool_time"> CALENDAR </span>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="tooltip">
+                        <a href=""> <img class="dashboard" src="dashboard.svg" alt="dashboard" /></a>
+                        <span class="tooltiptext" id="tool_time"> DASHBOARD</span>
+                        </div>
+                </li>
+                <li class="reports">
+                    <div class="tooltip">
+                    <a href=""> <img src="reports.svg" alt="report" /></a>
+                    <span class="tooltiptext" id="tool_time"> REPORT </span>
+                </div>
+                </li>
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="projects.svg" alt="projects" /></a>
+                    <span class="tooltiptext" id="tool_time"> PROJECTS </span>
+                </div>
+                </li>
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="teams.svg" alt="teams" /></a>
+                    <span class="tooltiptext" id="tool_time"> TEAMS</span>
+                </div>
+                </li>
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="clients.svg" alt="clients" /></a>
+                    <span class="tooltiptext" id="tool_time"> CLIENTS</span>
+                </div>
+                </li>
+                <li>
+                    <div class="tooltip">
+                    <a href=""> <img src="tags.svg" alt="tags" /></a>
+                    <span class="tooltiptext" id="tool_time"> TAGS</span>
+                </div>
+                </li>
+                <li id="settings">
+                    <div class="tooltip">
+                    <a href=""> <img src="settings.svg" alt="settings" /></a>
+                    <span class="tooltiptext" id="tool_time"> SETTINGS </span>
+                </div>
+                </li>
+            </ul>
+            
+        </div>
+
+
+    </div>
+
+    <div class="middle_content" id="middle_content">
+     aaaaa
+    </div>
+
+
+    <script src="Product_Navbar.js"></script>
+</body>
+
+</html>
