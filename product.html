@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clockify - 100% Free Time Tracking Software</title>
+    <link rel="icon" href="https://clockify.me/assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/249783f98b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+     <div class="navbar">
+     </div>
+     <div class="container">
+        <div class="sidebar">
+            <button onclick="templateChange()">Changer</button>
+        </div id="container__root" class="container__root">
+         <div class="Timesheet">
+            <div class="Timesheet__navigation">
+                <h2>Timesheet</h2>
+            </div>
+            <div class="Timesheet__table">
+                <div class="Timesheet__table__head">
+                    <div class="Timesheet__table__spacer">
+                        <p>Projects</p>
+                        <input  class="Timesheet__table__project" id="project" placeholder="Project Name" type="text" required="required">
+                    </div>
+                    <div class="Timesheet__table__details">
+                        <div>
+                            <p>Mon</p>
+                            <input id="mon" type="number">
+                        </div>
+                        <div> 
+                            <p>Tue</p>
+                            <input id="tue" type="number">
+                        </div>
+                        <div>
+                            <p>Wed</p>
+                            <input id="wed" type="number">
+                        </div>
+                        <div>
+                            <p>Thur</p>
+                            <input id="thu" type="number">
+                        </div>
+                        <div>
+                            <p>Fri</p>
+                            <input id="fri" type="number">
+                        </div>
+                        <div>
+                            <p>Sat</p>
+                            <input id="sat" type="number">
+                        </div>
+                        <div>
+                            <p>Sun</p>
+                            <input id="sun" type="number">
+                        </div>
+                        <div>
+                            <p>Total</p>
+                            <p id="total" style="visibility: hidden;">ad</p>
+                        </div>
+                        <div>
+                            <button id="addTimesheet">Add</button>
+                        </div>
+                    </div> 
+                </div>
+                <div id="Timesheet__table__body">
+                     
+                </div>
+                <div class="Timesheet__table__total">
+                    <div class="Timesheet__table__spacer">
+                        <p>Total:</p>
+                    </div>
+                    <div class="Timesheet__table__details" >
+                        <div>
+                            <p id="monTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="tueTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="wedTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="thuTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="friTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="satTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="sunTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="sumTotal">0</p>
+                        </div>
+                        <div>
+                            <button onclick="clearAll()">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <script src="product.js"></script>
+</body>
+</html>
+
+ 
+  

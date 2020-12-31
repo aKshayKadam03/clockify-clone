@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clockify - 100% Free Time Tracking Software</title>
+    <link rel="icon" href="https://clockify.me/assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/249783f98b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="timetracker.css">
+</head>
+<body>
+     <div class="navbar">
+     </div>
+     <div class="container">
+        <div class="sidebar">
+        </div id="container__root" class="container__root">
+         <div class="Timetracker">
+            <div class="Timetracker__navigation">
+                <h2>Timetracker</h2>
+            </div>
+            <div class="Timetracker__head">
+                <div>
+                    <input class="Timetracker__description" id="Timetracker__description" placeholder="What are you working on">
+                </div>
+                <div>
+                    <input type="text" id="projectListInput" list="project__list" placeholder="Select the project" />
+                    <datalist id="project__list">
+                        <option></option>
+                    </datalist>    
+                </div>
+                <div>
+                    <input type="text" list="weekDays" id="weekDaysInput" placeholder="Enter Day" />
+                    <datalist id="weekDays">
+                        <option value="Monday"></option>
+                        <option value="Tuesday"></option>
+                        <option value="Wednesday"></option>
+                        <option value="Thursday"></option>
+                        <option value="Friday"></option>
+                        <option value="Saturday"></option>
+                        <option value="Sunday"></option>
+                    </datalist>     
+                </div>
+                <div>
+                    <h4 id="time__tracker">00:00</h4>
+                </div>
+                <div id="stopWatchToggle">
+                    <button id="time__start">Start</button>
+                </div>
+            </div> 
+            <div id="Timetracker__body" class="Timetracker__body">
+               
+            </div>
+     </div>
+     <script src="timetracker.js"></script>
+</body>
+</html>
+
+ 
+ 
