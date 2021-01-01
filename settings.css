@@ -8,8 +8,9 @@ body {
 .mainBody {
     height: 100%;
     width: 80%;
-    margin-top: 7%;
-    margin-left: 16%;
+    margin-top: 10%;
+    margin-left: 8%;
+    z-index: 99999999999999;
     /* border: 1px solid black; */
 }
 
@@ -30,7 +31,7 @@ body {
     height: 5%;
     /* border: 1px solid red; */
     margin-top: 1%;
-    overflow-x: auto;
+    /* overflow-x: auto; */
 }
 
 .mainBody__options > ul{
@@ -62,9 +63,10 @@ body {
 }
 
 .mainBody__settings {
-    margin-top: -1.5%;
+    margin-top: -10.8%;
     height: auto;
     width: 98%;
+    margin-left: 1%;
     /* border: 1px solid black; */
     /* border: 1px solid #C6D2D9; */
     background-color: white;
