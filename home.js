@@ -54,4 +54,4 @@ mobileMenu.style.display = "none";
 
   
 
- 
+  `<img src="${"https://clockify.me/assets/images/features/features-weekly-screenshot.svg" }">`
