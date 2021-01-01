@@ -35,7 +35,7 @@ function openAlert() {
     import_btn.style.background = "#E4EAEE"
     import_btn.style.borderBottom = 1 + "px solid #C6D2D9"
 
-    mainBody__settings.innerHTML = `<div class="mainBody__settings" id="mainBody__settings">
+    mainBody__settings.innerHTML = `<div id="mainBody__settings" style="margin-top:119px">
                                         <div class="settings__innerBody" style="height:200px">
                                             <div class="innerBody__upgrade">
                                                 <p>PREMIUM feature
@@ -62,7 +62,7 @@ function openAccount() {
     import_btn.style.background = "#E4EAEE"
     import_btn.style.borderBottom = 1 + "px solid #C6D2D9"
 
-    mainBody__settings.innerHTML = `<div class="mainBody__settings" id="mainBody__settings">
+    mainBody__settings.innerHTML = `<div id="mainBody__settings" style="margin-top:119px">
                                         <div class="settings__innerBody" style="height:200px">
                                             <div class="innerBody__upgrade">
                                                 <p>ENTERPRISE feature
@@ -88,7 +88,7 @@ function openAuth() {
     import_btn.style.background = "#E4EAEE"
     import_btn.style.borderBottom = 1 + "px solid #C6D2D9"
 
-    mainBody__settings.innerHTML = `<div class="mainBody__settings" id="mainBody__settings">
+    mainBody__settings.innerHTML = `<div id="mainBody__settings" style="margin-top:108px;">
                                         <div class="settings__innerBody" style="height:500px; margin-bottom:50px;">
                                             <div class="innerBody__upgrade">
                                                 <p>ENTERPRISE feature
@@ -133,7 +133,7 @@ function openCustom() {
     import_btn.style.background = "#E4EAEE"
     import_btn.style.borderBottom = 1 + "px solid #C6D2D9"
 
-    mainBody__settings.innerHTML = `<div class="mainBody__settings" id="mainBody__settings">
+    mainBody__settings.innerHTML = `<div id="mainBody__settings" style="margin-top:115px">
                                         <div class="settings__innerBody" style="height:400px;">
                                             <div class="innerBody__upgrade">
                                                 <p>ENTERPRISE feature
@@ -172,7 +172,7 @@ function openImport() {
     import_btn.style.background = "white"
     import_btn.style.borderBottom = 0
     // settings.style.background = "white"
-    mainBody__settings.innerHTML = `<div class="mainBody__settings" id="mainBody__settings">
+    mainBody__settings.innerHTML = `<div id="mainBody__settings" style="margin-top:119px">
                                         <div class="settings__innerBody" style="height:200px">
                                             <div class="innerBody__upgrade">
                                                 <p>PREMIUM feature
