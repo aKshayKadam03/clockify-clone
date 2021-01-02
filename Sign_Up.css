@@ -147,7 +147,7 @@ body{
     justify-content: space-between;
     align-items: baseline;
     margin-right: 10px;
-
+    font-family: 'Roboto', sans-serif;
     /* background-color: #999;
     height: 2px; */
 }
@@ -155,6 +155,7 @@ body{
     width: 42%;
     height: 1px;
     background-color: #999;
+    font-family: 'Roboto', sans-serif;
 }
   /* .Sign_Up_OR{
 position: relative;
@@ -170,10 +171,12 @@ z-index: 10; */
     background-color:rgb(255,255,255);
     border-radius: 2px;
     text-decoration: none;    
+
 }
 .Sign_Up_Google_Button :hover{
     background-color: #f2f6f8;
     /* border: 1px solid black; */
+    font-family: 'Roboto', sans-serif;
 }
   .Sign_Up_Google {
       width: 100%;
@@ -190,10 +193,12 @@ z-index: 10; */
         height: 20px;
         margin-top: 5px;
         margin-left: 35px;
+        font-family: 'Roboto', sans-serif;
     }
 .Sign_Up_Google_Continue{
     width: 90%;
    margin: auto;
+   font-family: 'Roboto', sans-serif;
 }
 
 
@@ -201,6 +206,7 @@ z-index: 10; */
     text-align: center;
     width: 25%;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 .Sign_Up_Privacy_img{
     width: 3%;
@@ -208,45 +214,52 @@ z-index: 10; */
     margin-top: 5px;    
     align-items: baseline;
     justify-content: baseline;
+    font-family: 'Roboto', sans-serif;
 }
 .Sign_Up_Privacy_Span{
     font-size: 11px;
     color: #333;
     font-family: 'Roboto',sans-serif;
     margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 .Sign_Up_Privacy a{
     text-decoration: none;
     color: #03a9f4;
     font-size: 11px;
     margin: 0px 5px 1px 0px;
-
+    font-family: 'Roboto', sans-serif;
 }
 @media only screen and (max-width: 600px) {
     .Sign_Up_Contianer{
         min-width:100%;   
+        font-family: 'Roboto', sans-serif;
        max-width: 100%;
     }   
     .Sign_Up_GetStarted{
         min-width: 50%;
         max-width: 100%;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Google
     {
         min-width: 50%;
         max-width: 100%;
         height: 20px;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Google_Continue{
         font-size: 10px;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Login{
-    
+        font-family: 'Roboto', sans-serif;
         text-align: right;
     }
     .Sign_Up_Form{
         min-width: 50%;
         max-width: 100%;
+        font-family: 'Roboto', sans-serif;
         height: 350px;
     }
     .Sign_Up_Google img{
@@ -254,37 +267,44 @@ z-index: 10; */
         height: 20px;
         margin-top: 5px;
         margin-left: 0px;
+        font-family: 'Roboto', sans-serif;
     }
 }
 @media only screen and (max-width: 750px) {
     .Sign_Up_Contianer{
         min-width:100%;   
        max-width: 100%;
+       font-family: 'Roboto', sans-serif;
     }   
     .Sign_Up_GetStarted{
         min-width: 50%;
         max-width: 100%;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Google
     {
         min-width: 50%;
         max-width: 100%;
         height: 20px;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Google_Continue{
         font-size: 10px;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Login{
-    
+        font-family: 'Roboto', sans-serif;
         text-align: right;
     }
     .Sign_Up_Form{
         min-width: 50%;
         max-width: 100%;
         height: 350px;
+        font-family: 'Roboto', sans-serif;
     }
     .Sign_Up_Google img{
         width: 10%;
+        font-family: 'Roboto', sans-serif;
         height: 20px;
         margin-top: 5px;
         margin-left: 0px;

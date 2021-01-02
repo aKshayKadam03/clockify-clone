@@ -11,17 +11,20 @@ body{
     height: 300px;
     margin: 10px auto;
     margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 .heading h1{
     text-align: center;
     font-size: 38px;
     color: rgba(0, 0, 0, 0.733);
+    font-family: 'Roboto', sans-serif;
 }
 .heading h3{
     color: rgba(128, 128, 128, 0.904);
     text-align: center;
     letter-spacing: 1px;
     line-height: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 .a_tags ul {
     font-size: 17px;
@@ -30,14 +33,20 @@ body{
     list-style: none;
     justify-content: center;
     /* margin-left: 50px;  */
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 .a_tags li{
     padding-left: 20px;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 .a_tags li a{
     color: rgb(3,169,244);
     letter-spacing: 1px;
     text-decoration: none;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 .p_tags{
     width: 55%;
@@ -46,7 +55,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    font-family: 'Roboto', sans-serif; 
 }
 .p_tags p{
     background-color: rgb(225,245,254);
@@ -58,18 +68,21 @@ body{
     border-radius: 3px;
     font-weight: 90px;
     color: gray;  
+    font-family: 'Roboto', sans-serif;
 }
 /* ======================== */
 .browser{
     display: flex;
     justify-content: center;
-    
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .browser .apps{
     margin-top: 100px;
     line-height: 50px;
-    
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .line{
@@ -79,6 +92,8 @@ body{
     width: 50%;
     margin: auto;
     margin-top: 55px;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -89,12 +104,16 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
     
 }
 
 .desktop .apps{
     margin-top: 50px;
     line-height: 50px;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ================== */
@@ -106,11 +125,15 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .mobile .apps{
     margin-top: 80px;
     line-height: 50px;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -127,16 +150,21 @@ body{
     border: none;
     border-radius: 5px;
     opacity: 0.8;
-   
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 } 
 .Dark__btn:hover{
     opacity: 1;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .Heading__Two{              
     font-size: 34px !important; 
     color: #3D4859;
     font-weight: 400;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -150,11 +178,15 @@ body{
     border: 2px solid #5FBDF7;
     background-color: transparent;
     outline: none;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 .Light__btn:hover{
     background-color: #5FBDF7;
     color: white;
+    transform: scale(1.1);
+    font-family: 'Roboto', sans-serif;
 }
 
 
