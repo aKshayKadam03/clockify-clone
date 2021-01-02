@@ -34,7 +34,7 @@ function Display_User_Name(){
     var password= localStorage.getItem("password")
     var work_name = document.getElementById("workspace_password")
     var work_password= document.getElementById("workspace_email")
-    work_name.innerHTML = "User Workspace : " +  email
+    work_name.innerHTML = "User : " +  email
     work_password.innerHTML = "User Email : " + email
     var profile_name = document.getElementById("profile_password")
     var profile_password= document.getElementById("profile_email")

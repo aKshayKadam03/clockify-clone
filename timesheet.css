@@ -7,6 +7,7 @@ input::-webkit-inner-spin-button {
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F2F6F8;
 }
  
 .Timesheet{
@@ -15,6 +16,7 @@ body{
    background-color: #F2F6F8;
    font-size: 20px;
    min-height: 91.5vh;
+  
 }
 
  .Timesheet__navigation{
@@ -26,12 +28,13 @@ body{
 
  .Timesheet__table{
      width: 90%;
+     margin: auto;
      box-shadow: 2px 4px 8px rgb(141, 139, 139);
      padding: 3%;
      text-transform: capitalize;
-     border-radius: 10px;
-     background-color: white;
+     border-radius: 10px; 
      background-color:#555758;
+   
  }
 
  .Timesheet__table input{

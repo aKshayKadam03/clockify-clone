@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0; 
+    background-color: #F2F6F8;  
 }
 .product__container__content{
     background-color: #F2F6F8;  

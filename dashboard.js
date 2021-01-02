@@ -58,7 +58,8 @@ const displayChart = (array,chartType)=>{
                     }
                 }]
             }
-        }
+        } 
+        
     });
  
 }  

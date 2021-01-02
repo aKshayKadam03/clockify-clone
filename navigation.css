@@ -74,6 +74,7 @@ body{
     flex-direction: column;
     min-width: 200px;
     min-height: 91.5vh;
+    background-color: white;
 }
 
 .product__container__sidebar > div{
@@ -86,7 +87,6 @@ body{
     color: #333333;
     font-weight: 500;
     line-height: 21px;
-    
 }
 
 .product__container__sidebar > div img{
@@ -104,6 +104,7 @@ body{
     background-color: #E4EAEE;
 }
 
+ 
 
 .dropdown {
     position: relative;
@@ -115,7 +116,8 @@ body{
       font-size: 20px;
   }
   .dropdown-content {
-    left: -150px;  
+    left: -120px;  
+    top:100;
     display: none;
     position: absolute;
     background-color: #FFFFFF;
