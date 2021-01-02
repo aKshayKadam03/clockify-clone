@@ -1,0 +1,136 @@
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F6F8;
+}
+ 
+.Timesheet{
+   width: 96%;
+   padding: 20px; 
+   background-color: #F2F6F8;
+   font-size: 20px;
+   min-height: 91.5vh;
+  
+}
+
+ .Timesheet__navigation{
+    text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 1.2px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .Timesheet__table{
+     width: 90%;
+     margin: auto;
+     box-shadow: 2px 4px 8px rgb(141, 139, 139);
+     padding: 3%;
+     text-transform: capitalize;
+     border-radius: 10px; 
+     background-color:#555758;
+   
+ }
+
+ .Timesheet__table input{
+     margin-top: 10px;
+     width: 90%;
+     font-size: 16px;
+     text-align: center;
+     border-radius: 3px;
+     outline: none;
+     border: none;
+     height: 30px;
+ }
+
+ 
+
+ .Timesheet__table__head{
+     width: 100%;
+     display: flex;
+     background-color:#555758;
+     color: black;
+     padding-right: 15px; 
+     border-radius: 10px;
+     margin-bottom: 5px;
+     color: white;
+     font-weight: 600;
+ }
+  
+
+ .Timesheet__table__spacer{
+    min-width: 13%;
+    align-self: center;
+    border-right: 1px solid grey;
+    padding: 10px;
+ }
+
+.Timesheet__table__details{
+    display: flex;
+    min-width: 85%; 
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.Timesheet__table__details > div{
+     width: 100px;
+     margin: 5px;
+}
+
+.Timesheet__table__total{
+    width: 100%;
+    display: flex;
+    background-color:#E4EAEE;
+    color: black;
+    padding-right: 15px; 
+    border-radius: 10px;
+    background-color:#555758;
+    color: white;
+    font-weight: 600;
+}
+
+.Timesheet__table__body{
+    width: 100%;
+    display: flex;
+    padding-right: 15px; 
+    border-radius: 10px;
+    margin: 5px auto;
+    background-color:#f7fcff;
+}
+
+ 
+ 
+.Timesheet__table__project{
+    width: 80% !important;
+    text-align: left !important;
+    padding-left: 10px;
+}
+
+
+ 
+
+.Timesheet__table button{
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5FBDF7;
+    border-radius: 5px;
+    border: 2px solid #5FBDF7;
+    background-color:#5FBDF7;
+    color: white;
+    outline: none;
+ }
+
+ .Timesheet__table button:hover{
+    background-color:white;
+    color:#5FBDF7;
+}
+/* ------------------------------------------------------------------------------------------- */
+

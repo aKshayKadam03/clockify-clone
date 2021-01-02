@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clockify - 100% Free Time Tracking Software</title>
+    <link rel="icon" href="https://clockify.me/assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/249783f98b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="features.css">
+</head>
+
+<body>
+    <div id="Navigation" class="Navigation">
+        <div>
+            <a href="home.html"><img src="https://clockify.me/assets/images/clockify-logo.svg" alt="logo"></a>
+        </div>
+        <div class="disappear">
+            <a href="features.html">Features</a>
+        </div>
+        <div class="disappear">
+            <a href="desktopapp.html">Download</a>
+        </div>
+        <div class="Navigation__spacer">
+        </div>
+        <div class="disappear">
+            <a href="log-in.html">Log In</a>
+        </div>
+        <div class="disappear">
+            <a  href="Sign_Up.html"><Button class="Light__btn">Sign Up</Button></a>
+        </div>
+        <a href="javascript:void(0);" id="navIcon" class="Navigation__toggle" onclick="navToggler()">
+            <i class="fas fa-bars"></i>
+        </a>
+     </div>
+    <!-- --------------------- Navigation End ----------------------------->
+    <!-- Time Taracker  -->
+
+    <div class="Feature_Page">
+        <div class="White_Div">
+            <div class="Feature_Time_Tracker">
+                <div class="White_Div_Desc">
+
+                    <h1 class="White_Div_h1">Time Tracker</h1>
+                    <p class="White_Div_P"> Start and stop timer as you work, or enter hours manually.</p>
+                </div>
+                <!-- <img src="https://clockify.me/assets/images/features/features-tracker-explainer.svg"
+                alt="time tracker exp" class="White_Div_Img_Exp" id="time_tracker_exp">
+
+                <img src="https://clockify.me/assets/images/features/features-tracker-screenshot.svg" alt="time tracker"
+                    class="White_Div_Img_Div" id="time_tracker_exp" />
+               -->
+                <div id="one">
+                    <div class="Time_Tracker">
+                        <img src="https://clockify.me/assets/images/features/features-tracker-screenshot.svg"
+                            alt="time tracker" class="White_Div_Img_Div" />
+                    </div>
+                    <div class="Time_Tracker_EXP"><img
+                            src="https://clockify.me/assets/images/features/features-tracker-explainer.svg"
+                            alt="time tracker exp" class="White_Div_Img_Exp" />
+                    </div>
+                </div>
+
+                <div class="White_Div_Footer">
+                    <div class="Div_1">
+                        <div class="White_Div_footer_P_Head">Timer </div>
+                        <div class="White_Div_footer_P_Desc"> Track time using a stopwatch </div>
+                    </div>
+
+                    <div class="Div_2">
+                        <div class="White_Div_footer_P_Head">Add time </div>
+                        <div class="White_Div_footer_P_Desc"> Enter and edit hours manually. </div>
+                    </div>
+
+
+                    <div class="Div_3">
+                        <div class="White_Div_footer_P_Head">Calendar </div>
+                        <div class="White_Div_footer_P_Desc"> See tracked time on a timeline. </div>
+                    </div>
+
+
+                    <div class="Div_4">
+                        <div class="White_Div_footer_P_Head">Billable </div>
+                        <div class="White_Div_footer_P_Desc"> Mark hours as billable. </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Time tracker ends  -->
+
+        <div class="Blue_Div">
+            <div class="Feature_Time_Sheet">
+                <div class="Blue_Div">
+                    <div class="Feature_Time_Tracker">
+                        <div class="Blue_Div_Desc">
+                            <h1 class="Blue_Div_h1">Timesheet
+                            </h1>
+                            <p class="Blue_Div_P"> Log your weekly activities in less than a minute.</p>
+                        </div>
+
+                        <!-- <img src="https://clockify.me/assets/images/features/features-timesheet-screenshot.svg" alt=""
+                            class="Blue_Div_Img_Div" />
+                        <img src="" alt="https://clockify.me/assets/images/features/features-timesheet-explainer.svg"
+                            class="Blue_Div_Img_Exp"> -->
+                        <div id="two">
+                            <div class="Time_Sheet">
+                                <img src="https://clockify.me/assets/images/features/features-timesheet-screenshot.svg"
+                                    alt="time tracker" class="White_Div_Img_Div" />
+                            </div>
+                            <div class="Time_Sheet_EXP"><img
+                                    src="https://clockify.me/assets/images/features/features-timesheet-explainer.svg"
+                                    alt="time tracker exp" class="White_Div_Img_Exp" />
+                            </div>
+                        </div>
+
+
+                        <div class="Blue_Div_Footer">
+                            <div class="Div_1">
+                                <div class="Blue_Div_footer_P_Head">Activites </div>
+                                <div class="Blue_Div_footer_P_Desc"> Select activity and enter time. </div>
+                            </div>
+
+                            <div class="Div_2">
+                                <div class="Blue_Div_footer_P_Head">Notes</div>
+                                <div class="Blue_Div_footer_P_Desc"> Add more information. </div>
+                            </div>
+
+
+                            <div class="Div_3">
+                                <div class="Blue_Div_footer_P_Head">Totals</div>
+                                <div class="Blue_Div_footer_P_Desc"> See total time per activity/day.</div>
+                            </div>
+
+
+                            <div class="Div_4">
+                                <div class="Blue_Div_footer_P_Head">Templates
+                                </div>
+                                <div class="Blue_Div_footer_P_Desc"> Quickly load activities each week. </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- TimeSheet ends  -->
+
+
+        <div class="White_Div">
+            <div class="Feature_Dashboard">
+                <div class="White_Div">
+                    <div class="Feature_Time_Tracker">
+                        <div class="White_Div_Desc">
+                            <br><br><br>
+                            <h1 class="White_Div_h1">Dashboard</h1>
+                            <p class="White_Div_P"> See where you spend time and what your team is working on.
+                        </div>
+
+                        <img src="https://clockify.me/assets/images/features/features-dashboard-screenshot.svg" alt=""
+                            class="White_Div_Img_Div" />
+                        <!-- <img src="https://clockify.me/assets/images/features/features-dashboard-explainer.svg" alt="" -->
+                        <!-- class="White_Div_Img_Exp"> --> -->
+
+                        <!-- <div id="three">
+                                <div class="Dashboard">
+                                    <img src="https://clockify.me/assets/images/features/features-dashboard-screenshot.svg" alt="time tracker" class="White_Div_Img_Div"/>
+                                </div>
+                                <div class="Dashboard_EXP"><img
+                                        src="https://clockify.me/assets/images/features/features-dashboard-explainer.svg" alt="time tracker exp" class="White_Div_Img_Exp"/>
+                                </div>
+                            </div> -->
+
+                        <div class="White_Div_Footer">
+                            <div class="Div_1">
+                                <div class="White_Div_footer_P_Head">Top activities </div>
+                                <div class="White_Div_footer_P_Desc"> See where you spend most time.</div>
+                            </div>
+
+                            <div class="Div_2">
+                                <div class="White_Div_footer_P_Head">Visual charts </div>
+                                <div class="White_Div_footer_P_Desc"> All time and money at a glance. </div>
+                            </div>
+
+
+                            <div class="Div_3">
+                                <div class="White_Div_footer_P_Head">Breakdowns</div>
+                                <div class="White_Div_footer_P_Desc">See what your team worked on. </div>
+                            </div>
+
+
+                            <div class="Div_4">
+                                <div class="White_Div_footer_P_Head">Live status</div>
+                                <div class="White_Div_footer_P_Desc"> See who currently works on what. </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature_Dashboard ends-->
+
+        <div class="Blue_Div">
+            <div class="Feature_Report">
+                <div class="Blue_Div">
+                    <div class="Feature_Time_Tracker">
+                        <div class="Blue_Div_Desc">
+                            <h1 class="Blue_Div_h1">Reports </h1>
+                            <p class="Blue_Div_P"> See who worked on what, how much money you earn, review your team's
+                                time, and export the data.</p>
+                        </div>
+
+                        <!-- <img src="https://clockify.me/assets/images/features/features-reports-screenshot.svg" alt=""
+                            class="Blue_Div_Img_Div" />
+                        <img src="" alt="" class="Blue_Div_Img_Exp"> -->
+
+                        <div class="Report_tab">
+                            <button id="report_tab1">Summary</button>
+                            <button id="report_tab2"> Detailed</button>
+                            <button id="report_tab3"> Weekly</button>
+                        </div>
+
+                        <div class="tab_imgs" id="tab_imgs">
+                            <img src="https://clockify.me/assets/images/features/features-reports-screenshot.svg" alt=""
+                                id="img1">
+                            <!-- <img src="https://clockify.me/assets/images/features/features-detailed-screenshot.svg"
+                                alt="" id="img2">
+                            <img src="https://clockify.me/assets/images/features/features-weekly-screenshot.svg" alt=""
+                                id="img3"> -->
+                        </div>
+                        <!-- <div id="four">
+                            <div class="Report">
+                                <img src="https://clockify.me/assets/images/features/features-reports-screenshot.svg" alt="time tracker" class="White_Div_Img_Div"/>
+                            </div>
+                            <div class="Report_EXP"><img
+                                    src="https://clockify.me/assets/images/features/features-reports-explainer.svg" alt="time tracker exp" class="White_Div_Img_Exp"/>
+                            </div>
+                        </div> -->
+
+                        <div class="Blue_Div_Footer">
+                            <div class="Div_1">
+                                <div class="Blue_Div_footer_P_Head">Breakdowns </div>
+                                <div class="Blue_Div_footer_P_Desc"> Overview by day, activity, and user. </div>
+                            </div>
+
+                            <div class="Div_2">
+                                <div class="Blue_Div_footer_P_Head">Share</div>
+                                <div class="Blue_Div_footer_P_Desc">Share reports with clients via link. </div>
+                            </div>
+
+
+                            <div class="Div_3">
+                                <div class="Blue_Div_footer_P_Head">Filters</div>
+                                <div class="Blue_Div_footer_P_Desc"> Drill down into your data.</div>
+                            </div>
+
+
+                            <div class="Div_4">
+                                <div class="Blue_Div_footer_P_Head">Export
+                                </div>
+                                <div class="Blue_Div_footer_P_Desc"> Download PDF, CSV, or Excel. </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature_Report ends-->
+
+        <div class="White_Div">
+            <div class="Feature_Project">
+                <div class="White_Div">
+                    <div class="Feature_Time_Tracker">
+                        <div class="White_Div_Desc">
+                            <br><br><br>
+                            <h1 class="White_Div_h1">Projects</h1>
+                            <p class="White_Div_P"> Track time on projects, and keep an eye on progress and budget.</p>
+                        </div>
+
+                        <img src="https://clockify.me/assets/images/features/features-projects-screenshot.svg" alt=""
+                            class="White_Div_Img_Div" />
+                        <!-- <img src="https://clockify.me/assets/images/features/features-projects-explainer.svg" alt=""
+                            class="White_Div_Img_Exp"> -->
+
+                        <!-- <div id="five">
+                                <div class="Project">
+                                    <img src="https://clockify.me/assets/images/features/features-projects-screenshot.svg" alt="time tracker" class="White_Div_Img_Div"/>
+                                </div>
+                                <div class="Project_EXP"><img
+                                        src="https://clockify.me/assets/images/features/features-projects-explainer.svg" alt="time tracker exp" class="White_Div_Img_Exp"/>
+                                </div>
+                            </div> -->
+
+
+
+                        <div class="White_Div_Footer">
+                            <div class="Div_1">
+                                <div class="White_Div_footer_P_Head">Tasks </div>
+                                <div class="White_Div_footer_P_Desc"> Categorize time by job type.</div>
+                            </div>
+
+                            <div class="Div_2">
+                                <div class="White_Div_footer_P_Head">Estimates </div>
+                                <div class="White_Div_footer_P_Desc"> See tracked vs estimated time. </div>
+                            </div>
+
+
+                            <div class="Div_3">
+                                <div class="White_Div_footer_P_Head">Status</div>
+                                <div class="White_Div_footer_P_Desc">Track project progress </div>
+                            </div>
+
+
+                            <div class="Div_4">
+                                <div class="White_Div_footer_P_Head">Live status</div>
+                                <div class="White_Div_footer_P_Desc"> See who currently works on what. </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Feature_Project ends -->
+
+
+        <div class="Blue_Div">
+            <div class="Feature_Team">
+                <div class="Blue_Div">
+                    <div class="Feature_Time_Tracker">
+                        <div class="Blue_Div_Desc">
+                            <h1 class="Blue_Div_h1">Team </h1>
+                            <p class="Blue_Div_P"> Invite your team so they can record their attendance and track how
+                                much time they spend on activities.</p>
+                        </div>
+
+                        <img src="https://clockify.me/assets/images/features/features-team-screenshot.svg" alt=""
+                            class="Blue_Div_Img_Div" />
+                        <!-- <img src="https://clockify.me/assets/images/features/features-team-explainer.svg" alt=""
+                            class="Blue_Div_Img_Exp"> -->
+
+                        <!-- <div id="six">
+                                <div class="Team">
+                                    <img src="https://clockify.me/assets/images/features/features-team-screenshot.svg" alt="time tracker" class="White_Div_Img_Div"/>
+                                </div>
+                                <div class="Team_EXP"><img
+                                        src="https://clockify.me/assets/images/features/features-team-explainer.svg" alt="time tracker exp" class="White_Div_Img_Exp"/>
+                                </div>
+                            </div> -->
+
+                        <div class="Blue_Div_Footer">
+                            <div class="Div_1">
+                                <div class="Blue_Div_footer_P_Head">Invite team </div>
+                                <div class="Blue_Div_footer_P_Desc">Unlimited number of users, free. </div>
+                            </div>
+
+                            <div class="Div_2">
+                                <div class="Blue_Div_footer_P_Head">Manager</div>
+                                <div class="Blue_Div_footer_P_Desc">Give additional permissions. </div>
+                            </div>
+
+
+                            <div class="Div_3">
+                                <div class="Blue_Div_footer_P_Head">Rates</div>
+                                <div class="Blue_Div_footer_P_Desc"> Set per user hourly rates.</div>
+                            </div>
+
+
+                            <div class="Div_4">
+                                <div class="Blue_Div_footer_P_Head">Groups </div>
+                                <div class="Blue_Div_footer_P_Desc">Manage access using groups. </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Feature_Teamends -->
+
+                <div class="White_Div">
+                    <div class="Feature_Extra">
+                        <div class="White_Div">
+                            <div class="Feature_Time_Tracker">
+                                <div class="White_Div_Desc">
+                                    <br><br><br><br><br><br>
+                                    <h1 class="White_Div_h1">Extras</h1>
+                                    <p class="White_Div_P"> Extend Clockify with additional features.
+                                    <ul>
+                                        <li> Cost and profit</li>
+                                        <li> Custom fields</li>
+                                        <li>Approval</li>
+                                        <li>Rounding</li>
+                                        <li>Invocing.....</li>
+                                        <li>and more !</li>
+                                    </ul>
+                                    <a href=""> See all extra features</a>
+                                    </p>
+
+                                </div>
+
+                                <img src="https://clockify.me/assets/images/features/features-apps.png" alt=""
+                                    class="White_Div_Img_Div" />
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr>
+                <!-- Feature_Extra -->
+
+                <div class="BLue_Div">
+                    <div class="Feature_Intergration">
+                        <div class="Blue_Div">
+                            <div class="Feature_Time_Tracker">
+                                <div class="Blue_Div_Desc">
+                                    <h1 class="Blue_Div_h1">Intergrations</h1>
+                                    <p class="Blue_Div_P"> Track time inside other web apps.
+
+                                    </p>
+                                </div>
+
+                                <img src="https://clockify.me/assets/images/integrations/time-tracking-integrations-trello.png"
+                                    alt="" class="Blue_Div_Img_Div" />
+                                <img src="https://clockify.me/assets/images/integrations/time-tracking-integrations-asana.png"
+                                    alt="" class="Blue_Div_Img_Div" />
+                                <img src="https://clockify.me/assets/images/integrations/time-tracking-integrations-jira.png"
+                                    alt="" class="Blue_Div_Img_Div" />
+                                <br><br>
+                                <img src="https://clockify.me/assets/images/multiple-clockify-integrations.svg"
+                                    alt=""><br><br><br>
+
+                                <a href="">See all integrations (40+)</a><br><br><br>
+                                <a href=""> API / Webhooks</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Feature_Intergration ends -->
+
+                    <div class="White_Div">
+                        <div class="Feature_Apps">
+                            <div class="White_Div">
+
+                                <div class="White_Div_Desc">
+                                    <h1 class="White_Div_h1">Apps</h1>
+                                    <p class="White_Div_P"> Track time from anywhere — everything is synced online.
+                                    <ul>
+                                        <li> Web </li>
+                                        <li> Chrome</li>
+                                        <li>Firefrox</li>
+                                        <li>windows</li>
+                                        <li>Mac</li>
+                                        <li>Linux</li>
+                                        <li>iOS</li>
+                                        <li>Android</li>
+                                    </ul>
+                                    <div class="app_btn">
+                                        <button> Idle detection</button>
+                                        <button> Auto start/stop</button>
+                                        <button> Offlinemode</button>
+                                        <button> Default project</button>
+                                        <button> Remainders</button>
+                                        <button> Pomodoro timer</button>
+                                        <button> Auto tracker </button>
+                                    </div>
+                                    </p>
+
+                                </div>
+
+                                <img src="https://clockify.me/assets/images/features/features-extra-screenshot.svg"
+                                    alt="" class="White_Div_Img_Div" />
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature_Apps ends -->
+        <!-- 
+        <div class="White_Div">
+            <div class="Feature_Dem0">
+                <div class="White_Div_Desc">
+                    <h1 class="White_Div_h1">Watch Demo</h1>
+                    <p class="White_Div_P"> See how everything in Clockify works.</p>
+                </div>
+        
+                <video src="https://youtu.be/KUm08oEoU5c"></video>            
+          
+        </div>
+
+            </div> -->
+    </div>
+    </div>
+
+    <!-- --------------------- Navigation End ----------------------------->
+    <div class="Footer">
+        <div>
+            
+            <h1 class="Heading__Two">Start tracking time with the Clockify</h1>
+            <div class="Footer__list">
+                <li>Unlimited users</li>
+                <li>•</li>
+                <li>Cancel anytime</li>
+                <li>•</li>
+                <li>Free forever</li>
+            </div>
+            <button class="Dark__btn">Get Started - It's Free!</button>
+            <i class="fas fa-users"><span>76,318 people signed up last month</i>
+        </div>
+        <div class="Footer__section">
+            <div>
+                <a href="#"><img src="https://clockify.me/assets/images/clockify-logo.svg" alt="logo"></a>
+                <p><a href="#">Log In</a></p>
+                <p><a href="#">Sign up</a></p>
+            </div>
+            <div></div>
+            <div>
+                <b><p>Product</p></b>
+                <p>Features</p>
+                <p>Download</p>
+                <p>Integrations</p>
+                <p>Extras</p>
+            </div>
+            <div>
+                <b><p>Solution</p></b>
+                <p>Time clock</p>
+                <p>Timesheet</p>
+                <p>Time calculator</p>
+                <p>Self-hosting</p>
+            </div>
+            <div>
+                <b><p>Company</p></b>
+                <p>About us</p>
+                <p>Customers</p>
+                <p>Resources</p>
+                <p>Blog</p>
+            </div>
+            <div>
+                <b><p>Support</p></b>
+                <p>Help</p>
+                <p>API</p>
+                <p>Contact</p>
+                <p><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i></p>
+            </div>
+        </div>
+        <div class="Footer__navigation">
+            <div>
+                <p>&copy 2020 Clockify</p>
+            </div>
+            <div></div>
+            <div>
+                <p>Cookies</p>
+            </div>
+            <div>
+                <p>Terms</p>
+            </div>
+            <div>
+                <p>Privacy</p>
+            </div>
+            <div>
+                <p>Security</p>
+            </div>
+        </div>
+     </div>  
+
+    <script>
+        var btn1 = document.getElementById("report_tab1")
+        var btn2 = document.getElementById("report_tab2")
+        var btn3 = document.getElementById("report_tab3")
+        
+        var div = document.getElementById("tab_imgs")
+
+        function showtab1() {
+            console.log("inside img fun")
+
+           var img=`<img src="${"https://clockify.me/assets/images/features/features-reports-screenshot.svg" }">` 
+
+         console.log(img)
+         div.innerHTML = img
+        }
+
+        function showtab2() {
+            var img  = `<img src="${"https://clockify.me/assets/images/features/features-detailed-screenshot.svg" }">`
+            div.innerHTML = img
+            }
+
+        function showtab3() {
+            var img  = `<img src="${"https://clockify.me/assets/images/features/features-weekly-screenshot.svg" }">`
+            div.innerHTML = img
+        }
+
+        btn1.addEventListener("click", showtab1)
+        btn2.addEventListener("click", showtab2)
+        btn3.addEventListener("click", showtab3)
+
+        
+
+    </script>
+</body>
+
+</html>

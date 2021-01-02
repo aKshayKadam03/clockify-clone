@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade</title>
+    <link href= "upgrade.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="https://clockify.me/assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="navigation.css">
+    <script src="https://kit.fontawesome.com/249783f98b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="product__navigation">
+        <div>
+            <i onclick="sidebarFeature()" class="fas fa-bars"></i>
+        </div>
+        <div>
+            <img src="https://clockify.me/assets/images/clockify-logo.svg" alt="logo">
+        </div>
+        <div class="product__navigation__spacer">
+
+        </div>
+        <div>
+            <!-- <span>Workspace</span> -->
+            <!-- <i class="fas fa-caret-down"></i> -->
+            <div class="dropdown">
+                <span class="dropbtn" id="workspace_password">Workspace </span>
+                <div class="dropdown-content">
+                    <a href="#">Workspace</a>
+                    <a href="settings.html" id="workspace_email"> </a>
+                </div>
+            </div>
+        </div>
+        <div>
+           <a href="upgrade.html"><button class="btn">upgrade</button></a>
+        </div>
+        <div>
+            <img src="https://clockify.me/assets/nav-icons/help.svg">
+        </div>
+        <div>
+            <img src="https://clockify.me/assets/nav-icons/notification.svg">
+        </div>
+        <div>
+            <!-- <img src="" alt="dp"> -->
+            <i class="fas fa-user"></i>
+            <div class="dropdown">
+                <span class="dropbtn">Profile </span>
+                <div class="dropdown-content">
+                    <a href="#" id="profile_password"> </a>
+                    <!-- <a href="#" id="profile_email"> </a> -->
+                    <a href="settings.html"> Profile Setting</a>
+                    <a href="desktopapp.html"> Download</a>
+                    <a href="home.html"> Logout </a>
+                </div>
+            </div>
+        </div>
+        <!-- onclick="parent.location='index.jsp#home'">home</a> -->
+     </div>
+    <div class="product__container">
+        <div id="product__container__sidebar" class="product__container__sidebar">
+            <div  onclick="parent.location='timesheet.html'" title="Timesheet">
+                <img src="https://clockify.me/assets/nav-icons/timesheet.svg" alt="icon">
+                <span>Timesheet</span>
+            </div>  
+            <div onclick= "parent.location='timetracker.html'" title="Time Tracker">
+                <img src="https://clockify.me/assets/nav-icons/time-tracker.svg" alt="icon">
+                <span>Timetracker</span>
+            </div>
+            <div  id="product__analyze">
+                <p>Analyze</p>
+            </div>
+            <div onclick= "parent.location='dashboard.html'" title="Dashboard">
+                <img src="https://clockify.me/assets/nav-icons/dashboard.svg" alt="icon">
+                <span>Dashboard</span>
+            </div>
+            <div id="product__manage">
+                <p>Manage</p>
+            </div>
+            <div onclick= "parent.location='teams.html'" title="Team">
+                <img src="https://clockify.me/assets/nav-icons/teams.svg" alt="icon">
+                <span>Team</span>
+            </div>
+            <div onclick= "parent.location='client.html'" title="Clients">
+                <img src="https://clockify.me/assets/nav-icons/clients.svg" alt="icon">
+                <span>Clients</span>
+            </div>
+            <div onclick= "parent.location='tags.html'" title="Tags">
+                <img src="https://clockify.me/assets/nav-icons/tags.svg" alt="icon">
+                <span>Tags</span>
+            </div>
+            <div onclick= "parent.location='settings.html'" title="Settings">
+                <img src="https://clockify.me/assets/nav-icons/settings.svg" alt="icon">
+                <span>Settings</span>
+            </div>
+        </div>
+        <div id="product__container__content" class="product__container__content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="mainBody">
+                <div class="mainBody__freeVersion">You're currently using the free version.</div>
+    
+                <div class="mainBody__rightBtns">
+                    <button class="btn1">Watch Demo</button>
+                    <button class="btn2">Activate free trail now</button>
+                </div><br><br><br><br><br>
+    
+                <div class="mainBody__heading">
+                    <p class="heading__title">Get more from Clockify!</p>
+                    <p class="heading__desc">Upgrade workspace and get even more features.</p>
+                </div>
+    
+                <div class="mainBody__monthlyBilling">
+                    <div class="monthlyBilling__btn1">Monthly Billing</div>
+                    <div class="monthlyBilling__btn2">Annual Billing <span>Get 2 months free</span></div>
+                </div>
+    
+                <div class="mainBody__cards">
+                    <div class="cards__c1">
+                        <p class="c1__title">Plus</p>
+                        <p class="c1__price"><sup>$</sup> 9<span>.99</span><sub> per month</sub></p>
+                        <p class="c1__desc">For companies that need a bit more control over who can do what.</p>
+                        <div class="c1__list">
+                            <p><span>&#10004;</span> Hide time from users</p>
+                            <p><span>&#10004;</span> Lock timesheets</p>
+                            <p><span>&#10004;</span> Required fields</p>
+                            <p><span>&#10004;</span> Time rounding</p>
+                            <p><span>&#10004;</span> Time audit</p>
+                            <p><span>&#10004;</span> Branded reports</p>
+                            <p><span>&#10004;</span> Targets and reminders</p>
+                        </div>
+    
+                        <hr>
+    
+                        <button class="c1__btn">Upgrade</button>
+                    </div>
+    
+                    <div class="cards__c2">
+                        <div class="cards__c2Star"><span>★</span></div>
+                        <p class="c2__title">Premium</p>
+                        <p class="c1__price"><sup>$</sup> 29<span>.99</span><sub> per month</sub></p>
+                        <p class="c1__desc">For companies that need a robust full-featured time tracker.</p>
+                        <div class="c2__list">
+                            <p><span>&#10004;</span> All PLUS features</p>
+                            <p><span>&#10004;</span> Add time for others</p>
+                            <p><span>&#10004;</span> Project templates</p>
+                            <p><span>&#10004;</span> Alerts</p>
+                            <p><span>&#10004;</span> Bulk edit</p>
+                            <p><span>&#10004;</span> Hide pages</p>
+                            <p><span>&#10004;</span> Automatic lock</p>
+                        </div>
+    
+                        <hr>
+    
+                        <button class="c2__btn">Upgrade</button>
+                    </div>
+    
+                    <div class="cards__c3">
+                        <p class="c3__title">Enterprise</p>
+                        <p class="c1__price"><sup>$</sup> 9<span>.99</span><sub> per month</sub></p>
+                        <p class="c1__desc">For large organizations that need complete control over their data.</p>
+                        <div class="c3__list">
+                            <p><span>&#10004;</span> ALL PREMIUM features</p>
+                            <p><span>&#10004;</span> Single sign-on (SSO)</p>
+                            <p><span>&#10004;</span> Control user accounts</p>
+                            <p><span>&#10004;</span> Custom subdomain</p>
+                            <p><span>&#10004;</span> Phone support</p>
+                            <p><span>&#10004;</span> Custom fields</p>
+                            <p><span>&#10004;</span> Labor cost</p>
+                            <p><span>&#10004;</span> Time approval</p>
+                            <p><span>&#10004;</span> Manager role</p>
+                            <p><span>&#10004;</span> Scheduled reports</p>
+                            <p><span>&#10004;</span> Import timesheets</p>
+                            <p><span>&#10004;</span> Force timer</p>
+                        </div>
+    
+                        <hr>
+    
+                        <button class="c3__btn">Upgrade</button>
+                    </div>
+    
+                </div>
+    
+                <div class="mainBody__companies">Trusted by thousands of companies</div>
+                <div class="mainBody__comapniesLogo">
+                    <img src="https://clockify.me/assets/clients-logos/Group1.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group2.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group3.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group4.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group5.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group6.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group7.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group8.svg">
+                    <img src="https://clockify.me/assets/clients-logos/Group9.svg">
+                </div>
+    
+                <hr style="margin-top: 50px; background-color: #E4EAEE; width: 96%;">
+    
+                <div class="mainBody__faq">Frequently asked questions</div>
+    
+                <div class="mainBody__questions">
+                    <div class="questions__box">
+                        <p class="question">Can I try it out first?</p>
+                        <p class="answer">Absolutely! You can try out all the paid features for free for one whole week, no credit card required. Activate free trial now.</p>
+                    </div>
+                    <div class="questions__box">
+                        <p class="question">Do you offer refunds?</p>
+                        <p class="answer">We don't offer refunds. But, if you were mistakenly charged due to system error, contact us and we'll immediately issue you a refund. </p>
+                    </div>
+    
+                    <div class="questions__box">
+                        <p class="question">Does it matter how many users I have?</p>
+                        <p class="answer">Pricing for Plus and Premium plans is flat (it doesn't matter how many users you have). Pricing for Enterprise plan depends on the number of active users. All upgrades and payments are done on a per workspace basis.</p>
+                    </div>
+                    <div class="questions__box">
+                        <p class="question">What types of payment are supported?</p>
+                        <p class="answer">We support only payments by credit card. Wire transfers and purchase orders aren't supported (except for the Server plan).</p>
+                    </div>
+    
+                    <div class="questions__box">
+                        <p class="question">Can I switch between plans?</p>
+                        <p class="answer">Yes. When you switch to a higher plan, you'll immediately get new features and be charged a prorated price for that month. When you downgrade, you'll be switched to the downgraded plan once your current (higher) plan ends.</p>
+                    </div>
+                    <div class="questions__box">
+                        <p class="question">Are there any additional taxes?</p>
+                        <p class="answer">No, we take care of all the taxes. The price you see is what you'll get charged. You can enter your Tax ID, but it will only be used as an additional piece of information on your invoices.</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+    
+        <script src="navigation.js"></script>
+</body>
+</html>

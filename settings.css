@@ -1,0 +1,406 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+.product__container__content{
+    
+    background-color: #F2F6F8; 
+}
+
+.mainBody {
+    /* height: 100%; */
+    width: 80%;
+    /* margin-top: 10%; */
+    margin-left: 8%;
+    z-index: 99999999999999;
+    /* border: 1px solid black; */
+}
+
+.mainBody__heading {
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: 60px;
+}
+
+.mainBody__heading p {
+    font-size: 24px;
+    color: #666666;
+    font-weight: 400px;
+}
+
+.mainBody__options {
+    width: 70%;
+    height: 5%;
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    /* overflow-x: auto; */
+}
+
+.mainBody__options > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: -5%;
+}
+
+.mainBody__options ul li button {
+    height: 50px;
+    width: auto;
+    font-size: 14px;
+    color: #666666;
+    /* border-color: #C6D2D9; */
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: #E4EAEE;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 0.7px solid #C6D2D9;
+    outline: none;
+}
+
+.mainBody__options ul li button:hover {
+    background-color: white;
+    /* border-bottom-style: none; */
+}
+
+.mainBody__settings {
+    height: auto;
+    width: 98%;
+    margin-left: 1%;
+    /* border: 1px solid black; */
+    /* border: 1px solid #C6D2D9; */
+    background-color: white;
+}
+
+.settings__innerBody {
+    padding-left: 2%;
+    height: auto;
+    width: 100%;
+    border: 1px solid #c6d2d9;
+    background-color: white;
+}
+
+.innerBody__headAndDesc p {
+    line-height: 15px;
+}
+
+.innerBody__heading {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500px;
+}
+
+.innerBody__desc {
+    font-size: 14px;
+    color: #919191;
+}
+
+.innerBody__profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: teal;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+}
+
+.innerBody__upload {
+    margin-top: -70px;
+    margin-left: 140px
+}
+
+.innerBody__uploadFile {
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    background-color: #03a9f4;
+    border: 1px solid #c6d2d9;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+
+.innerBody__uploadFile:hover {
+    background-color:  #018bca;
+}
+
+.innerBody__uploadFile input {
+    opacity: 0;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 13px;
+    width: 100px;
+}
+
+hr {
+    margin-top: 20px;border: 0;
+    border-top: 1px solid #d3dbe0;
+    margin-right: 5%;
+}
+
+.innerBody__firstHR {
+    margin-top: 50px;
+}
+
+.innerBody__workspace input {
+    width: 30%;
+    height: 35px;
+    border: 1px solid #C6D2D9;
+}
+
+.workspaceBill__input {
+    display: flex;
+    height: 35px;
+}
+
+.workspaceBill__input input{
+    cursor: not-allowed;
+}
+
+.workspaceBill__input > div {
+    padding-left: 10px;
+    padding-top: 7px;
+    border: 1px solid #C6D2D9;
+    width: 60px;
+    font-size: 14px;
+    color: #0275a8;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.workspaceBill__input > div:hover {
+    text-decoration: underline;
+}
+
+.innerBody__workspaceBill > input {
+    height: 35px;
+    border: 1px solid #C6D2D9;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.innerBody__newProjects input {
+    cursor: pointer;
+}
+
+.newProjects__radio input {
+    cursor: pointer;
+}
+
+.newProjects__radio label {
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.groupProjects__options {
+    height: 35px;
+    width: 200px;
+    border: 1px solid #C6D2D9;
+    font-size: 14px;
+    color: #313437;
+    padding: 5px 10px;
+}
+
+.groupProjects__options option {
+    height: 100px;
+    line-height: 40px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 18px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 1px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .activate {
+      font-size: 14px;
+      margin-left: 10px;
+  } 
+
+.innerBody__upgrade {
+    width: 93%;
+    height: 40px;
+    background-color: #CDEEFD;
+    border: 1px solid #B8E7FC;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #02587f;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.innerBody__upgrade button {
+    margin-left: 20px;
+    font-size: 14px;
+    background-color: #03a9f4;
+    border: 1px solid #03a9f4;
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.innerBody__upgrade button:hover {
+    background-color: #038FCE;
+}
+
+fieldset {
+    opacity: 0.6;
+    cursor: default;
+    border: none;
+}
+
+.alert__details {
+    float: right;
+}
+
+.highight {
+    color: #038FCE;
+}
+
+
+
+
+ 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1406px) {
+    .mainBody__settings {
+        margin-top: -1.8%;
+        margin-left: 0.90%;
+        
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    .mainBody__settings {
+        margin-top: -1.22%;
+        margin-left: -0.5%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 700px and down) */
+@media only screen and (max-width: 700px) {
+    .innerBody__workspace input {
+        width: 93%;
+    }
+
+    .workspaceBill__input input {
+        width: 73%;
+    }
+
+    .innerBody__workspaceBill > input {
+        width: 92%;
+    }
+
+    .groupProjects__options {
+        width: 94%;
+    }
+
+    .innerBody__upgrade {
+        width: 89%;
+    }
+
+    .mainBody__options ul li button {
+        width: 150px;
+    }
+
+    .mainBody__options {
+        margin-left: -15px;
+        width: 100%;
+    }
+}

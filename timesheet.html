@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clockify - 100% Free Time Tracking Software</title>
+    <link rel="icon" href="https://clockify.me/assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/249783f98b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="timesheet.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <div class="product__navigation">
+        <div>
+            <i onclick="sidebarFeature()" class="fas fa-bars"></i>
+        </div>
+        <div>
+            <img src="https://clockify.me/assets/images/clockify-logo.svg" alt="logo">
+        </div>
+        <div class="product__navigation__spacer">
+
+        </div>
+        <div>
+            <!-- <span>Workspace</span> -->
+            <!-- <i class="fas fa-caret-down"></i> -->
+            <div class="dropdown">
+                <span class="dropbtn" id="workspace_password">Workspace </span>
+                <div class="dropdown-content">
+                    <a href="#">Workspace</a>
+                    <a href="settings.html" id="workspace_email"> </a>
+                </div>
+            </div>
+        </div>
+        <div>
+           <a href="upgrade.html"><button class="btn">upgrade</button></a>
+        </div>
+        <div>
+            <img src="https://clockify.me/assets/nav-icons/help.svg">
+        </div>
+        <div>
+            <img src="https://clockify.me/assets/nav-icons/notification.svg">
+        </div>
+        <div>
+            <!-- <img src="" alt="dp"> -->
+            <i class="fas fa-user"></i>
+            <div class="dropdown">
+                <span class="dropbtn">Profile </span>
+                <div class="dropdown-content">
+                    <a href="#" id="profile_password"> </a>
+                    <!-- <a href="#" id="profile_email"> </a> -->
+                    <a href="settings.html"> Profile Setting</a>
+                    <a href="desktopapp.html"> Download</a>
+                    <a href="home.html"> Logout </a>
+                </div>
+            </div>
+        </div>
+        <!-- onclick="parent.location='index.jsp#home'">home</a> -->
+     </div>
+    <div class="product__container">
+        <div id="product__container__sidebar" class="product__container__sidebar">
+            <div  onclick="parent.location='timesheet.html'" title="Timesheet">
+                <img src="https://clockify.me/assets/nav-icons/timesheet.svg" alt="icon">
+                <span>Timesheet</span>
+            </div>  
+            <div onclick= "parent.location='timetracker.html'" title="Time Tracker">
+                <img src="https://clockify.me/assets/nav-icons/time-tracker.svg" alt="icon">
+                <span>Timetracker</span>
+            </div>
+            <div  id="product__analyze">
+                <p>Analyze</p>
+            </div>
+            <div onclick= "parent.location='dashboard.html'" title="Dashboard">
+                <img src="https://clockify.me/assets/nav-icons/dashboard.svg" alt="icon">
+                <span>Dashboard</span>
+            </div>
+            <div id="product__manage">
+                <p>Manage</p>
+            </div>
+            <div onclick= "parent.location='teams.html'" title="Team">
+                <img src="https://clockify.me/assets/nav-icons/teams.svg" alt="icon">
+                <span>Team</span>
+            </div>
+            <div onclick= "parent.location='client.html'" title="Clients">
+                <img src="https://clockify.me/assets/nav-icons/clients.svg" alt="icon">
+                <span>Clients</span>
+            </div>
+            <div onclick= "parent.location='tags.html'" title="Tags">
+                <img src="https://clockify.me/assets/nav-icons/tags.svg" alt="icon">
+                <span>Tags</span>
+            </div>
+            <div onclick= "parent.location='settings.html'" title="Settings">
+                <img src="https://clockify.me/assets/nav-icons/settings.svg" alt="icon">
+                <span>Settings</span>
+            </div>
+        </div>
+        <div id="product__container__content" class="product__container__content">
+
+         <div class="Timesheet">
+            <div class="Timesheet__navigation">
+                <h2>Timesheet</h2>
+            </div>
+            <div class="Timesheet__table">
+                <div class="Timesheet__table__head">
+                    <div class="Timesheet__table__spacer">
+                        <p>Projects</p>
+                        <input  class="Timesheet__table__project" id="project" placeholder="Project Name" type="text" required="required">
+                    </div>
+                    <div class="Timesheet__table__details">
+                        <div>
+                            <p>Mon</p>
+                            <input id="mon" type="number">
+                        </div>
+                        <div> 
+                            <p>Tue</p>
+                            <input id="tue" type="number">
+                        </div>
+                        <div>
+                            <p>Wed</p>
+                            <input id="wed" type="number">
+                        </div>
+                        <div>
+                            <p>Thur</p>
+                            <input id="thu" type="number">
+                        </div>
+                        <div>
+                            <p>Fri</p>
+                            <input id="fri" type="number">
+                        </div>
+                        <div>
+                            <p>Sat</p>
+                            <input id="sat" type="number">
+                        </div>
+                        <div>
+                            <p>Sun</p>
+                            <input id="sun" type="number">
+                        </div>
+                        <div>
+                            <p>Total</p>
+                            <p id="total" style="visibility: hidden;">ad</p>
+                        </div>
+                        <div>
+                            <button id="addTimesheet">Add</button>
+                             
+                        </div>
+                    </div> 
+                </div>
+                <div id="Timesheet__table__body">
+                     
+                </div>
+                <div class="Timesheet__table__total">
+                    <div class="Timesheet__table__spacer">
+                        <p>Total:</p>
+                    </div>
+                    <div class="Timesheet__table__details" >
+                        <div>
+                            <p id="monTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="tueTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="wedTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="thuTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="friTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="satTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="sunTotal">0</p>
+                        </div>
+                        <div>
+                            <p id="sumTotal">0</p>
+                        </div>
+                        <div>
+                            <button onclick="clearAll()">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ </div>
+    
+            
+         
+     
+     <script src="timesheet.js"></script>
+     <script src = "navigation.js"></script>
+</body>
+</html>
+
+ 
+  
