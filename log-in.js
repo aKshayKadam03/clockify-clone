@@ -5,7 +5,11 @@ email.addEventListener("keyup", onLoad)     // this event is executed when key i
 
 function onLoad() {     // function to check if user email matches with the registered email
     let emailData = email.value
+
     if((emailData == "" || emailData != "hydrogen@gmail.com")) {
+
+    if((emailData == "" || emailData != "abc@gmail.com")) {
+
         btn1.disabled = true    //if user input does not match, log-in button is disabled
         email.style.border = 1 + "px solid red"
         pswd.style.border = 1 + "px solid red"
@@ -16,6 +20,7 @@ function onLoad() {     // function to check if user email matches with the regi
         pswd.style.border = 1 + "px solid #c6d2d9"
     }
 }
+
 
 
 
@@ -57,3 +62,4 @@ function Check() {
     }
 }
 btn.addEventListener('click', validateUser)
+
