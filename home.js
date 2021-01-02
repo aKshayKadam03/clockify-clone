@@ -15,16 +15,16 @@ checkbox.addEventListener("click", (e) =>{
 const html = `
 <div class="Navigation__mobile">
     <div>
-        <a href="#">Features</a>
+        <a href="features.html">Features</a>
     </div>
     <div>
-        <a href="#">Download</a>
+        <a href="desktopapp.html">Download</a>
     </div>       
     <div>
-        <a href="#">Log In</a>
+        <a href="log-in">Log In</a>
     </div>
     <div>
-        <a  href="#"><Button class="Light__btn">Sign Up</Button></a>
+        <a  href="Sing_Up"><Button class="Light__btn">Sign Up</Button></a>
     </div>
 </div>
 `

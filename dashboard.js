@@ -64,7 +64,26 @@ const displayChart = (array,chartType)=>{
  
 }  
 
+function pieChart(){
+    showAllData(`pie`)
+}   
+function radarChart(){
+    showAllData(`radar`)
+}   
 
+function lineChart(){
+    showAllData(`line`)
+}   
+
+function barChart(){
+    showAllData(`bar`)
+}   
+
+function doughnutChart(){
+    showAllData(`doughnut`)
+}   
+
+ 
 
 
 
@@ -72,8 +91,18 @@ const displayChart = (array,chartType)=>{
 
 // ---------------------------------------SHOWING ALL DATA ----------------------------------------
     
-const showAllData =()=>{
-    document.getElementById("dashboard__container__graph").innerHTML = `<canvas id="myChart"></canvas>`
+const showAllData =(gg)=>{
+    typeOfGraph = gg;
+    
+    document.getElementById("dashboard__container__graph").innerHTML = `
+    <div class="dashboard__container__graph__controls">
+        <button onclick="barChart()">Bar</button>
+        <button onclick="pieChart()">Pie</button>
+        <button onclick="lineChart()">Line</button>
+        <button onclick="radarChart()">Radar</button>
+        <button onclick="doughnutChart()">Doughnut</button>
+    </div>
+    <canvas id="myChart"></canvas>`
 
     const array = JSON.parse(localStorage.getItem("local"))
    
@@ -110,7 +139,8 @@ const showAllData =()=>{
           
 
 
-        displayChart(minutesPerWeek,`bar`)
+
+        displayChart(minutesPerWeek,typeOfGraph)
 
         document.getElementById("dashboard__stats__unique").innerHTML = `
         <div>   
@@ -141,14 +171,12 @@ const showAllData =()=>{
         </ul>
         </div>
         `
-        
-     
- 
+
 }
 
-document.getElementById("showAllData").addEventListener("click",showAllData)
+// document.getElementById("showAllData").addEventListener("click",showAllData("bar"))
 
-showAllData();
+showAllData("bar");
 
 // ---------------------------------------SHOWING ALL DATA END----------------------------------------
 
@@ -160,7 +188,9 @@ const goFilter = document.getElementById("goFilter")
 
 const filterByProjectName = ()=>{
 
-    document.getElementById("dashboard__container__graph").innerHTML = `<canvas id="myChart"></canvas>`
+    document.getElementById("dashboard__container__graph").innerHTML = `
+    <canvas id="myChart"></canvas>
+    `
 
     let dataCollectorStats = []
     let dataCollector = []
@@ -199,7 +229,7 @@ const filterByProjectName = ()=>{
          document.getElementById("dashboard__stats__total__time").innerHTML = totalTime +` Min`;
          document.getElementById("dashboard__stats__average__time").innerHTML = Math.floor(totalTime/7) +` Min`;
          
-         displayChart(dataCollector,`bar`)
+         displayChart(dataCollector,"bar")
         document.getElementById("projectListInput").value = "";  
     }
     dataCollectorStats.sort((a, b) => a[1] - b[1]);

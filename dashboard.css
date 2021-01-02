@@ -4,7 +4,6 @@ body{
 
 .dashboard{
     width: 96%;
-    height: 91.5vh;
     background-color: white;
     padding: 2%; 
 }
@@ -127,6 +126,11 @@ body{
 
 .dashboard__stats__details li{
     font-size: 18px;
+}
+
+.dashboard__container__graph__controls{
+    text-align: center;
+    margin: 20px auto;
 }
 
 
