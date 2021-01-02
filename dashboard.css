@@ -129,3 +129,65 @@ body{
     font-size: 18px;
 }
 
+
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1490px) {
+    
+    .dashboard__container__graph{
+        box-shadow: 2px 2px 8px rgb(177, 176, 176); 
+        width: 54%;
+        margin: 2%;
+        height: 450px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+     
+    .dashboard__container__stats{
+        box-shadow: 2px 2px 8px rgb(177, 176, 176); 
+        width: 36%;
+        margin: 2%;
+        height: 450px;
+        padding: 20px;
+        border-radius: 10px;
+        /* background-color: #bedfe9; */
+    }
+    .dashboard__stats__details li{
+        font-size: 14px;
+    }
+    
+    
+}
+ 
+
+ 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1490px) {
+    
+    .dashboard__container__graph{
+        box-shadow: 2px 2px 8px rgb(177, 176, 176); 
+        width: 54%;
+        margin: 2%;
+        height: 550px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+     
+    .dashboard__container__stats{
+        box-shadow: 2px 2px 8px rgb(177, 176, 176); 
+        width: 36%;
+        margin: 2%;
+        height: 550px;
+        padding: 20px;
+        border-radius: 10px;
+        /* background-color: #bedfe9; */
+    }
+    .dashboard__stats__details li{
+        font-size: 18px;
+    }
+    
+    
+}
+ 
