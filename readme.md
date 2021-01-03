@@ -1,6 +1,6 @@
 # Clockify Clone by Team Hydrogen
 
-Clockify clone is a time tracking app inspired by the original [Clockify](https://clockify.me/) web app.
+Clockify clone is a time tracking app inspired by the original [Clockify](https://clockify.me/) web app. This was built as a construct week project by Masai School Students.
 
 ## Features
 * This app lets you add project name, description and tracks time as well.
