@@ -14,7 +14,7 @@ Clockify clone is a time tracking app inspired by the original [Clockify](https:
 
 ![download](https://user-images.githubusercontent.com/39058941/103478691-69f2b100-4dee-11eb-954d-cfff6befd561.png)
 
-![login](https://user-images.githubusercontent.com/39058941/103478685-66f7c080-4dee-11eb-878f-43e2accf4c1b.png)
+![login](https://user-images.githubusercontent.com/39058941/103478895-d1f5c700-4def-11eb-9b35-ea8323902e98.png)
 
 ![signup](https://user-images.githubusercontent.com/39058941/103478686-67905700-4dee-11eb-8836-47c5ff9160b8.png)
 
