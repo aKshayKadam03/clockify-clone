@@ -221,6 +221,6 @@ clearAll = () =>{
  
 
 
-   
+   setInterval(timeSheetGrabageCollector, 1000);
 
- timeSheetGrabageCollector();
+ 
