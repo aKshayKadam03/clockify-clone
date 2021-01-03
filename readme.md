@@ -7,7 +7,9 @@ Clockify clone is a time tracking app inspired by the original [Clockify](https:
 * The data is stored in local storage so you can revisit your tracked projects anytime you wish.
 * It has features like data visualization which lets you visualize your own tracked data and gives insights such as most productive or least productive day and so on.
 
-
+## Screenshots
+![Home](https://user-images.githubusercontent.com/39058941/103478483-1338a780-4ded-11eb-8499-8c52e03a2c7d.png)
+ 
  
 ## Credits
 * Images -  [Clockify](https://clockify.me/)
