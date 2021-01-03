@@ -221,22 +221,6 @@ clearAll = () =>{
  
 
 
-  // Simply deletes the projects which have total time of 0
- const timeSheetGrabageCollector = () => {
-    const grabage = JSON.parse(localStorage.getItem("local"))
    
-    if(grabage.length !== 0){
-        for( i in grabage){
-            
-             if(grabage[i].monday.time == 0 && grabage[i].tuesday.time == 0 && grabage[i].wednesday.time == 0 && grabage[i].thursday.time == 0 && grabage[i].friday.time == 0 && grabage[i].saturday.time == 0 && grabage[i].sunday.time == 0){
-                
-                grabage.splice(i,1);
-                console.log(grabage)
-                localStorage.setItem("local", JSON.stringify(grabage));
-             }
-        }
-    }
-
- }
 
  timeSheetGrabageCollector();
