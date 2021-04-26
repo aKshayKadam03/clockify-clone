@@ -46,7 +46,7 @@ Clockify clone is a time tracking app inspired by the original [Clockify](https:
 * Timetracker - Lets you track time 
 * Dashboard - Data visualization and insights
 
-##Team
+## Team
 * Pavithra N
 * Suhaib Ahmed
 * Akshay Kadam
