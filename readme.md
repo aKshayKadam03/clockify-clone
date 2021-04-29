@@ -2,6 +2,8 @@
 
 Clockify clone is a time tracking app inspired by the original [Clockify](https://clockify.me/) web app. This was built as a construct week project by Masai School Students.
 
+[Live Demo](https://clockify-hydrogen.netlify.app/)
+
 ## Features
 * This app lets you add project name, description and tracks time as well.
 * The data is stored in local storage so you can revisit your tracked projects anytime you wish.
